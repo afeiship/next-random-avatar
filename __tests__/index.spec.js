@@ -1,6 +1,5 @@
 (function() {
-  var nx = require('next-js-core2');
-  var NxRandomAvatar = require('../src/next-random-avatar');
+  const NxRandomAvatar = require('../src');
 
   describe('NxRandomAvatar.methods', function() {
     test('test men', function () {
