@@ -38,5 +38,10 @@
   "dependencies": {
     "@jswork/next-random": "^1.0.0",
     "@jswork/next-random-list": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "next",
+    "random",
+    "avatar"
+  ]
 }
