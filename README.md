@@ -22,8 +22,6 @@ npm install -S @jswork/next-random-avatar
 ```js
 import NxRandomAvatar from '@jswork/next-random-avatar';
 
-import NxRandomAvatar from 'next-random-avatar';
-
 NxRandomAvatar.men(/*1~100*/);
 NxRandomAvatar.women(/*1~100*/);
 NxRandomAvatar.lego(/*1~10*/);
