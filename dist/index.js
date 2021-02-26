@@ -2,8 +2,8 @@
  * name: @jswork/next-random-avatar
  * description: Random avatar api.
  * homepage: https://github.com/afeiship/next-random-avatar
- * version: 1.0.0
- * date: 2021-02-17 15:28:09
+ * version: 1.0.1
+ * date: 2021-02-26 16:00:31
  * license: MIT
  */
 
