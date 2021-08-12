@@ -19,5 +19,12 @@
       expect(manPic.indexOf('.jpg') > -1).toBe(true);
       expect(manPic.indexOf('lego') > -1).toBe(true);
     });
+
+    test('test random get', ()=>{
+      for (let i = 0; i < 100; i++) {
+        var img = NxRandomAvatar.get(i);
+        expect(img.indexOf('.jpg') > -1).toBe(true);
+      }
+    });
   });
 })();

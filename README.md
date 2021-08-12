@@ -12,11 +12,12 @@ npm install -S @jswork/next-random-avatar
 ```
 
 ## apis
-| api   | params | description                 |
-| ----- | ------ | --------------------------- |
-| men   | -      | Get random men image list.  |
-| women | -      | Get random women image list |
-| lego  | -      | Get random men lego list    |
+| api   | params | description                     |
+| ----- | ------ | ------------------------------- |
+| men   | -      | Get random men image list.      |
+| women | -      | Get random women image list.    |
+| lego  | -      | Get random men lego list.       |
+| get   | -      | Get random men/women/lego list. |
 
 ## usage
 ```js
