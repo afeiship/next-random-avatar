@@ -21,6 +21,16 @@
         var role = ROLES[roleIdx];
         var idx = nxRandom(0, MAP[roleIdx]);
         return API_URL + role + '/' + idx + '.jpg';
+      },
+      gets: function (inSize) {
+        var size = inSize || 10;
+        var result = [];
+        for (var i = 0; i < size * 10; i++) {
+          var target = this.get();
+          if (result.includes(target)) continue;
+          if (result.length === size) return result;
+          result.push(target);
+        }
       }
     }
   });

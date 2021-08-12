@@ -1,7 +1,7 @@
-(function() {
+(function () {
   const NxRandomAvatar = require('../src');
 
-  describe('NxRandomAvatar.methods', function() {
+  describe('NxRandomAvatar.methods', function () {
     test('test men', function () {
       var manPic = NxRandomAvatar.men();
       expect(manPic.indexOf('.jpg') > -1).toBe(true);
@@ -20,11 +20,16 @@
       expect(manPic.indexOf('lego') > -1).toBe(true);
     });
 
-    test('test random get', ()=>{
+    test('test random get', () => {
       for (let i = 0; i < 100; i++) {
         var img = NxRandomAvatar.get(i);
         expect(img.indexOf('.jpg') > -1).toBe(true);
       }
+    });
+
+    test.only('radom gets size list', () => {
+      var imgs = NxRandomAvatar.gets();
+      expect(imgs.length).toBe(10);
     });
   });
 })();
